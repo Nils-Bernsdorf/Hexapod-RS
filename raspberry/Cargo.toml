@@ -1,0 +1,13 @@
+[package]
+name = "raspberry"
+version = "0.1.0"
+authors = ["Nils Bernsdorf <nils.bernsdorf@fau.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hexapod = {path = "../hexapod" }
+io_utils = {path = "../io_utils" }
+pwm-pca9685 = "0.3"
+rppal = { version = "0.12.0", features = ["hal"] }

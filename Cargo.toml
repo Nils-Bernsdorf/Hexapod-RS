@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "hexapod",
+    "raspberry",
+    "io_utils"
+]
